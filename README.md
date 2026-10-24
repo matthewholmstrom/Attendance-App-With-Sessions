@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Attendance Manager with Session Tracking
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+A React-based attendance management application for tracking player attendance, viewing attendance summaries, and calculating time spent logged in across multiple sessions per day.
 
-## Available Scripts
+## Features
+- **Dashboard:** View attendance summaries and trends over a selected date range.
+- **Session Tracking:** Record multiple login and logout sessions for a player on the same day.
+- **Session Duration:** Calculate the duration of individual sessions using login and logout times.
+- **Attendance Statistics:** View attendance counts and identify frequent attendees.
+- **Date Filtering:** Filter attendance records by date range.
 
-In the project directory, you can run:
+## Technologies
+- React
+- JavaScript
+- HTML
+- CSS
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+- Node.js
+- npm
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
+1. Clone this repository.
+2. Open a terminal in the project directory.
+3. Install dependencies:
 
-### `npm test`
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. Start the development server:
 
-### `npm run build`
+   ```bash
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Open the local URL displayed in the terminal.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Future Improvements
+- Add CSV import and export functionality.
+- Improve mobile responsiveness.
+- Add persistent data storage so attendance records remain available across sessions and devices.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
+<img width="1912" height="946" alt="image" src="https://github.com/user-attachments/assets/9e1ee147-3a90-418b-bb09-162b1e85d946" />
+<img width="1895" height="556" alt="image" src="https://github.com/user-attachments/assets/9b462c83-47d8-4ade-a798-5b5a4e5e3af7" />
+<img width="1910" height="950" alt="image" src="https://github.com/user-attachments/assets/28ff7689-a429-4ba3-adab-7e6efb750856" />
+<img width="1910" height="949" alt="image" src="https://github.com/user-attachments/assets/7e620bb3-3710-49ee-8649-b8a5033b1e00" />
+<img width="1912" height="945" alt="image" src="https://github.com/user-attachments/assets/ae872650-95df-426f-8254-cf43bc073d86" />
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
