@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Sidebar from './Components/Sidebar';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import Attendance from './Components/Attendance';
+import Dashboard from './Components/Dashboard';
+import Players from './Components/Players';
+import PlayerView from './Components/PlayerView';
+import CsvImport from './Components/CsvImport';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <BrowserRouter>
+    
+    <Routes>
+
+      <Route path='/' element = {<Dashboard/>}></Route>
+      <Route path='/attendance' element = {<Attendance/>}></Route>
+      <Route path='/players' element = {<Players/>}></Route>
+      <Route path= '/players/:username' element = {<PlayerView/>}></Route>
+      <Route path='/csv' element = {<CsvImport/>}></Route>
+
+    </Routes>
+    
+    </BrowserRouter>
+    
   );
 }
 
